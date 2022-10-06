@@ -1,0 +1,63 @@
+<div class="container">
+    <legend>Update A New Player</legend>
+    <div class="mb-3">
+        <label for="txtPlayerName" class="form-label">Player Name</label>
+        <input
+          type="text"
+          [(ngModel)]="playerForm.name"
+          class="form-control"
+          id="txtPlayerName"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="txtLastname" class="form-label">Player Lastname</label>
+        <input
+          type="text"
+          [(ngModel)]="playerForm.lastname"
+          class="form-control"
+          id="txtLastname"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="txtposition" class="form-label">position</label>
+        <input
+          type="text"
+          [(ngModel)]="playerForm.position"
+          class="form-control"
+          id="txtposition"
+          required
+        />
+      </div>
+      <div class="mb-3">
+          <label for="txtnumber" class="form-label">numero</label>
+          <input
+            type="number"
+            [(ngModel)]="playerForm.number"
+            class="form-control"
+            id="txtnumber"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="txtcoach" class="form-label">coach</label>
+          <input
+            type="text"
+            [(ngModel)]="playerForm.coach"
+            class="form-control"
+            id="txtcoach"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="txtyear" class="form-label">year</label>
+          <input
+            type="text"
+            [(ngModel)]="playerForm.year"
+            class="form-control"
+            id="txtyear"
+            required
+          />
+        </div>
+    <button type="button" class="btn btn-success" (click)="udapte()">Update</button>
+  </div>

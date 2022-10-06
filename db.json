@@ -1,0 +1,14 @@
+{
+  "players": [
+    {
+      "id": 4,
+      "name": "pierre",
+      "lastname": "lambert",
+      "number": 7,
+      "isCaptain": false,
+      "position": "Right Winger",
+      "coach": "Martin St-Louis",
+      "year": "2022"
+    }
+  ]
+}
